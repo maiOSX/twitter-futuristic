@@ -22,7 +22,8 @@ html {
 /*darken bg*/
 .r-150rngu > div:nth-child(1):not(.r-1d0k16c):not(.r-kemksi):not(.r-1ye8kvj):not(.r-ouzzow):not(.r-136ojw6) {
     /* - DM bg, DM bg, DM bg, DM bg pop-out DM */
-	background: rgba(0,0,0,var(--bg-op)) !important;
+	background: rgba(0,0,0,var(--bg-op)) !important;    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
 	outline: solid rgba(0,0,0,var(--bg-op)) 9999px !important;
 }
 
